@@ -7,7 +7,7 @@ int main() {
     for(int i = 0; i < n; i++) {
         cin >> x >> y >> s;
         int di = x*x + y*y;
-        if(di <= (r-s)*(r-s) && di >= (r-d+s)*(r-d+s)) {
+        if(r - s >= 0 && di <= (r-s)*(r-s) && di >= (r-d+s)*(r-d+s)) {
             ans ++;
         }
     }
