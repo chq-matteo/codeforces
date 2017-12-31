@@ -1,4 +1,4 @@
-// 
+// I actually didn't solve this problem during the contest because I didn't enforce positive remainders
 // We can solve the problem with dynamic programming
 // states[m][o] is how many different ways you can indent the statements from o onwards knowing that you can give the first statement indentation level from 0 to m
 // sum[m][o] holds sum(states[i][o] for 0 <= i <= m)
